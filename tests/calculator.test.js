@@ -30,8 +30,11 @@ describe("Calculator Tests", () => {
         var result = mathOperations.divide(24, 8)
 
         // assert
-        it('some text', () => {
-            expect(result).toBe(3);
-        })        
+        expect(result).toBe(3);
+        
     });
+    // Don't do this it will not work
+    setTimeout(() => {
+    it('passes', () => expect(1).toBe(1));
+  }, 0);
 })
