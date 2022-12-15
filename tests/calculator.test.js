@@ -30,6 +30,8 @@ describe("Calculator Tests", () => {
         var result = mathOperations.divide(24, 8)
 
         // assert
-        expect(result).toBe(3);
+        it('some text', () => {
+            expect(result).toBe(3);
+        })        
     });
 })
