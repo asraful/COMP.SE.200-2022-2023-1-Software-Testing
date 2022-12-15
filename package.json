@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
     "test": "jest",
     "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
@@ -12,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "coveralls": "^3.1.1",
-    "jest": "^29.3.1"
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
   }
 }
