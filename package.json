@@ -10,6 +10,7 @@
   },
   "author": "Asraful",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
 }
