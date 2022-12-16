@@ -9,4 +9,5 @@ function asciiToArray(string) {
   return string.split('')
 }
 
-export default asciiToArray
+//export default asciiToArray
+module.exports = asciiToArray

@@ -1,4 +1,6 @@
-import slice from '../slice.js'
+//import slice from '../slice.js'
+
+const slice =  require('../slice.js');
 
 /**
  * Casts `array` to a slice if it's needed.
@@ -15,4 +17,5 @@ function castSlice(array, start, end) {
   return (!start && end >= length) ? array : slice(array, start, end)
 }
 
-export default castSlice
+//export default castSlice
+module.exports = castSlice
