@@ -20,4 +20,5 @@ function baseAssignValue(object, key, value) {
   }
 }
 
-export default baseAssignValue
+//export default baseAssignValue
+module.exports = baseAssignValue

@@ -14,6 +14,5 @@ function getTag(value) {
   return toString.call(value)
 }
 
-//export default getTag
 
 module.exports = getTag
